@@ -1,0 +1,84 @@
+
+body {
+	background-color: #DF3D82;
+	font-family: corbel;
+	text-align: center;
+}
+
+
+a,li {
+	color: white;
+	text-decoration: none;
+}
+
+h1 { 
+	color: white;
+	font-family: Tw Cen MT;
+	font-size: 22px;
+ }
+
+ul { 
+	font-size: 20px;
+	list-style-type: none;
+}
+
+h1.agenda {
+	border-style: solid;
+	max-width: 215px;
+	max-height: 200px;
+	margin: 10px auto 10px auto;
+	padding-top: 17px;
+	padding-bottom: 17px;
+
+}
+
+
+ul.breadcrumb {
+	font-size: 15px;
+	position: relative;
+	right: 422px;
+}
+
+
+}
+
+body > header ul{
+	width: 100%;
+	list-style: none;
+	padding: 0;
+	text-align: center;
+	display: inline;
+
+}
+
+
+.menu ul li{
+	list-style-type: none;
+	display: inline;
+	font-family: corbel;
+	font-size: 17px;
+}
+
+img.homepagemars'{
+	float: left;
+	margin-right: 10px;
+}
+
+footer {
+	
+}
+
+.column1of3, .column2of3, .column3of3 { 
+
+	font-size: 19px;
+	color: #BCBCBC;
+	font-family: Tw Cen MT;
+}
+
+div.column1of3, .column2of3, .column3of3 {
+	width: 300px; 
+	float: left; 
+	margin: 10px;
+	background-color: #282828;
+
+}
