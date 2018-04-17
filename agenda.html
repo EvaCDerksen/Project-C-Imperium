@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="UTF-8"/>
+			<title>Imperium theater</title>
+			<link rel="stylesheet" type="text/css" href="css.css">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		</head>
+		<body> 
+			<header>
+				<nav> 
+					<a href="index.html"><img src="images/logozwart.png" class="logo" alt="Klik hier om naar de homepage te gaan!"/></a>
+					<div class="nav">     
+						<ul>
+							<li><a href="agenda.html">Agenda</a></li>
+							<li><a href="onzetoneelgroep.html">Onze toneelgroep</a></li>
+							<li><a href="archief.html">Archief</a></li>
+							<li><a href="theaterhuren.html">Theater huren</a></li>
+							<li class="reserveren"><a href="reserveren.html">Reserveren</a></li>
+						</ul>   
+					</div>    
+				</nav>
+
+					<img src="images/homeheader.jpg" class="headerimage"/>			
+
+					<div class="top">   
+							<ul class='breadcrumb'>
+									<li class='breadcrumbtext'>U BENT HIER: HOME ></li>
+									<li class='breadcrumbtext'>AGENDA</li>
+							</ul>
+							<img src="images/dividerblack.png" class="divider" width="1075" />
+					</div>
+			</header>
+			<section id="agendasector">
+
+				<div class="search-container">
+					<form action="http://www.example.com/bookings/"   
+						method="post" action="/action_page.php">
+						<input type="date" name="zoekvelddatum" id="zoekvelddatum"/> 
+				    	<img src="images/calendar.png" class="calendar"/>
+      					<input type="text" placeholder="Zoek.." id="zoekveld">
+      					<a href="#">
+      						<img src="images/search.png" class="search"/> <!--Deze zou als button moeten dienen-->
+      					</a>  					
+    				</form>
+    			</div>
+				<br /><br />
+				<div class="agendaticket">
+
+				<a href="	"><img src="images/ticketagenda.png" class="ticket" alt="Klik hier om voor deze voorstelling te reserveren"/></a>
+				</div> 
+
+				<div class="agendaimage">
+						<img src="images/thestateofmary.jpg" alt="Poster van de voorstelling The State of Mary"/>
+				</div>
+
+				<div class="agendatext">   
+						<h1 class="agendatext">The State of Mary</h1>
+						<p><i>What did you think, the first time you saw me? Did you spy the devil’s daughter they’d warned you about?</i>
+						<br /><br />
+						Two iconic queens in a bloody power struggle have to deal with their faiths, the interests of their people, and of the men that surround them…
+						<br /><br />
+						<form action="http://www.example.com/subscribe.php">  
+							<input type="submit" name="info" id="info"  
+							value="Meer info" />
+						</form> 
+		      			</p>
+		      	</div> 
+
+		      	<br /><br />
+
+		      	<div class="agendaticket">
+
+				<a href="	"><img src="images/ticketagenda2.png" class="ticket" alt="Klik hier om voor deze voorstelling te reserveren"/></a>
+				</div> 
+
+				<div class="agendaimage">
+						<img src="images/Zinsbegoocheling.png" id="zinsbegoocheling" alt="Poster van de voorstelling zinsbegoocheling."/>
+				</div>
+
+				<div class="agendatext">   
+						<h1 class="agendatext">Zinsbegoocheling</h1>
+						<p>Pridamant heeft door zijn te strenge opvoeding de vlucht van zijn zoon Clindor veroorzaakt. Hij kreeg meteen spijt en heeft zijn zoon door heel Europa gezocht. Uiteindelijk komt hij in een grot waar de tovenaar Alcandre hem, in een zinsbegoocheling, fragmenten uit het leven van Clindor kan laten voorspelen door schimmen...
+						<br /><br />
+						<form action="http://www.example.com/subscribe.php">  
+							<input type="submit" name="info" id="info"  
+							value="Meer info" />
+						</form> 
+		      			</p>
+		      	</div> 
+				<br /><br />
+		      	<img src="images/arrowagenda.png" class="arrowagenda" alt="Klik hier om meer voorstellingen te bekijken"/>
+
+			</section>
+			<footer>
+
+				<div class="column1of3">
+
+					<h1 class="contact"> Contact </h1>
+						<p class="adres">
+							Oude Vest 33e<br />
+							2312 XR Leiden<br />
+							071 5141035<br /><br />
+							<a href="	"><img src="images/emailicoon.png" class="emailicoon" alt="Klik hier om een mail te sturen"/></a><a href="email.html">E-mail</a>
+						</p>
+				</div>  
+				<div class="column2of3">
+						<img src="images/vriendworden2.png" class="vriendwordenicoon" alt="Klik hier om donateur te worden"/>
+						<br /><a href="		">Vriend worden</a><br />
+						<a href="lidworden.html">Lid worden</a>
+						</p>
+				</div>  
+				<div class="column3of3">   
+						<h1 class="nieuwsbrief">Nieuwsbrief</h1>
+						<p class='inschrijven'>Schrijf je in voor onze nieuwsbrief!
+							<br />
+							<br />
+						<input type="button" name="nieuwsbrief" id="nieuwsbrief"
+			      			value="Inschrijven"
+			      			onclick="var email = prompt('Wat is je emailadres?');
+			      			alert('U bent nu ingeschreven voor de nieuwsbrief! U krijgt nog een bevestiging per mail hierover.');"/>
+		      			</p>
+		      	</div> 
+		      	<div class="socialmedia">
+						<a href="https://twitter.com/imperiumtheater"><img src="images/twittericon.png" class="twitter" alt="Klik hier om naar het twitter account van imperium te gaan!"/></a><br />
+						<a href="https://www.facebook.com/ToneelgroepImperium?fref=ts"><img src="images/facebookicon.png" class="facebook" alt="Klik hier om naar het facebook account van imperium te gaan!"/></a>
+				</div>
+				<div>   
+					<p class="copyright">Imperium Theater &copy; 2018</p>
+				</div>
+			</footer>
+		</body>
+	</html>

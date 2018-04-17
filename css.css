@@ -1,46 +1,318 @@
 
-body {
-	background-color: #DF3D82;
-	font-family: corbel;
+* { 
+	font-family: corbel, Ebrima, calibri; 
 	text-align: center;
 }
 
+.nav {
+	margin-top: 20px; 
+	padding: 10px 0px 5px 0px;
+	background-color: #da0241;
+	font-size: 17px;
+}
+
+li { 
+	display: inline; 
+	padding: 5px;
+
+}
 
 a,li {
 	color: white;
 	text-decoration: none;
 }
 
-h1 { 
-	color: white;
-	font-family: Tw Cen MT;
-	font-size: 22px;
- }
-
-ul { 
-	font-size: 20px;
-	list-style-type: none;
+a[class="agenda"] {
+	color: #665544;
 }
 
-h1.agenda {
+ .agenda:hover { 
+ 	color: #DF3D82;
+ } 
+
+h1[class="agenda"] {
 	border-style: solid;
+	color: #665544;
 	max-width: 215px;
 	max-height: 200px;
 	margin: 10px auto 10px auto;
 	padding-top: 17px;
 	padding-bottom: 17px;
+}
+
+.nieuwsbrief, .contact {
+	color: white;
+	font-size: 20px;
+}
+
+section {
+	padding: 10px;
+}
+
+.column1of3, .column2of3, .column3of3, .socialmedia {
+	width: 300px; 
+	display: inline-block;
+	margin: 10px;
 
 }
 
+.socialmedia {
+	width: 200px;
+}
 
 ul.breadcrumb {
+	text-align: left;
+}
+
+.breadcrumbtext {
+	color: #282828;
+}
+
+.reserveren {
+	background-color: black;
+	margin: 5px;
+	padding: 6px;
+}
+
+footer {
+	background-color: #282828;
+	padding: 2px;
+}
+
+.copyright {
+	color: white;
+}
+
+.adres, .inschrijven {
+	color: #BCBCBC;
+}
+
+#nieuwsbrief {
+	border-style: solid;
+	border-color: #FF3333;
+	font-size: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: #FFF;
+	background-color: #FF3333;
+}
+
+.headerimage {
+	width: 100%;
+
+}
+
+td { background-color: white; 
+	padding: 15px;
+	border: 2px 
+	solid #000000;
+} 
+table.one { 
+	border-spacing: 5px 15px;
+	border-collapse: collapse;
+}
+
+
+/*CSS E-MAIL PAGINA*/
+
+#verstuur {
+	border-style: solid;
+	border-color: #E25491;
+	background-color: #E25491;
 	font-size: 15px;
-	position: relative;
-	right: 422px;
+	color: #FFF;
+	border-radius: 5px;
+}
+
+fieldset {
+	border-style: none;
+	padding: 20px;
+}
+
+/*CSS AGENDA PAGINA*/
+
+#agendasector {
+	background-color: pink;
+	padding: 20px
+}
+
+.agendaticket, .agendaimage, .agendatext {
+	width: 230px; 
+	display: inline-block;
+	margin: 10px;
+}
+
+#info {
+	border-style: solid;
+	border-color: #282828;
+	background-color: #282828;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-size: 16px;
+	color: #FFF;
+	border-radius: 3px;
+}
+
+#zinsbegoocheling {
+	width: 200px;
+	height: 280px;
+}
+
+ #zoekveld,#zoekvelddatum {
+    float: center;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 17px;
+    height: 20px;
+}
+
+/* CSS RESERVEREN PAGINA + pagina's stappen reserveren */
+
+.datum,.tijd,.artiest,.titel,.prijs,.reserverenbutton {
+	width: 200px; 
+	display: inline-block;
+}
+
+.blok1home {
+	display: inline-block;
+	width: 200px;
+}
+
+#reserverenbuttonid {
+	border-style: solid;
+	border-color: #FF3333;
+	font-size: 16px;
+	color: #FF3333;
+	background-color: #FFF;
+}
+
+#reserverenbuttonid:hover { 
+	background-color: #FF3333;
+	color: #FFF;
+}
+
+.h1reserverenform {
+	font-size: 19px;
+}
+
+.reserverenstap1 {
+	font-family: Ebrima;
+}
+
+/* CSS ONZE TONEELGROEP */
+
+.toneelgroepinfo {
+	text-align: left;
+	width: 600px;
+	padding-left: 25px;
+	padding-bottom: 35px;
+
+}
+
+p.toneelgroepinfo>a {
+	color: #E25491;
+}
+
+.onzetoneelgroepafb {
+	max-width: 450px;
+}
+
+.toneelgroepinfo,.onzetoneelgroepafb {
+	display: inline-block;
+	margin: 10px;
 }
 
 
+/* LID WORDEN */
+
+.lidwordeninfo {
+	text-align: left;
+	width: 600px;
+	padding-left: 25px;
+	padding-bottom: 35px;
 }
+
+p.lidwordeninfo>a {
+	color: #E25491;
+}
+
+.lidwordenafb {
+	max-width: 350px;
+}
+
+.lidwordeninfo,.lidwordenafb {
+	display: inline-block;
+	margin: 10px;
+}
+
+
+/* ARCHIEF CSS */
+
+#zoekveld2 {
+	border-style: solid;
+	border-color: lightgrey;
+	background-color: white;
+    float: center;
+    text-align: left;
+    padding: 6px;
+    font-size: 17px;
+    height: 20px;
+    width: 400px;
+}
+
+.seizoenheaders {
+	border-style: none;
+	color: #665544;
+	font-size: 16px;
+	background-color: black;
+	color: white;
+	border-color: black;
+	width: 1000px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.seizoen1 {
+	display: inline-block;
+}
+
+div.seizoen1 {
+	width: 250px;
+	padding-top: 20px;
+}
+
+.hetzouthuisafb,.killerjoeafb,.dochterboevenkoningafb,.voorstellingtweeafb {
+	width: 50%;
+}
+
+#fotoarchiefbutton {
+	border-style: solid;
+	width: 200px;
+	height: 30px;
+	margin: 20px;
+	font-size: 16px;
+	background-color: #E25491;
+	border-color: #E25491;
+	color: white;
+	border-radius: 3px;
+}
+
+/* THEATER HUREN */
+
+.theaterhureninfo {
+	text-align: left;
+	width: 600px;
+	padding-left: 25px;
+	padding-bottom: 35px;
+}
+
+
+/*ADD OR NOT?
 
 body > header ul{
 	width: 100%;
@@ -48,37 +320,24 @@ body > header ul{
 	padding: 0;
 	text-align: center;
 	display: inline;
+}	
+*/
 
+
+/* TEST COLORS
+
+.column1of3 {
+	background-color: red;
 }
 
-
-.menu ul li{
-	list-style-type: none;
-	display: inline;
-	font-family: corbel;
-	font-size: 17px;
+.column2of3 {
+	background-color: pink;
 }
 
-img.homepagemars'{
-	float: left;
-	margin-right: 10px;
+.column3of3 {
+	background-color: orange;
 }
 
-footer {
-	
-}
-
-.column1of3, .column2of3, .column3of3 { 
-
-	font-size: 19px;
-	color: #BCBCBC;
-	font-family: Tw Cen MT;
-}
-
-div.column1of3, .column2of3, .column3of3 {
-	width: 300px; 
-	float: left; 
-	margin: 10px;
-	background-color: #282828;
-
-}
+.socialmedia {
+	background-color: yellow;
+}*/
