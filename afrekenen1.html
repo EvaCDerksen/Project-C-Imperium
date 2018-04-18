@@ -27,19 +27,37 @@
 							<ul class='breadcrumb'>
 									<li class='breadcrumbtext'>U BENT HIER: HOME></li>
 									<li class='breadcrumbtext'>RESERVEREN></li>
-									<li class='breadcrumbtext'>RESERVEREN STAP 1</li>
+									<li class='breadcrumbtext'>WINKELWAGEN></li>
+									<li class='breadcrumbtext'>AFREKENEN</li>
 							</ul>
 							<img src="images/dividerblack.png" class="divider" width="1075" />
 					</div>
 			</header>
+			<!--inloggen formulieren -->
 			<section>
-					<h1 class="reserverenstap1">STAP 1: </h1>
+					<h1 id="overzichtreserveren">inloggen lid</h1>
 
-					<p>The State of Mary</p>
-				
-			</section>
+
+
+			</section><br />
+			<form>
+			<h1 id="ticketinvoer">inloggen nieuw lid</h1><br />
+				<label>Gebruikersnaam:</label>
+				<input class="ticketinvoer" type="name" name="tickets" placeholder="Vul in gebruikersnaam"><br /><br />
+				<label>Wachtwoord:</label>
+				<input class="ticketinvoer" type="password" name="tickets" placeholder="Vul in wachtwoord"><br /><br />
+				<input id="inlogbutton" class="inlogbutton" type="submit" value="inloggen">
+				<label>
+					<input type="checkbox" checked="checked" name="remember"> Onthoud mij
+				</label>
+			</form>
+			<br />
+			<a href="afrekenen2.html">
+				<input id="verderbuttonreserveren" class="buttontickets" type="submit" value="verder">
+			</a><br /><br />
+			<!-- Ik wou eigenlijk zoals bij een echt betaalproces dat o.a. de gegevens worden meegegeven naar de volgende stap, maar dat kan ik nog niet echt op het moment aangezien Javascript niet m'n sterkste punt is. Om dit een beetje op te lossen kan je doorklikken naar de volgende pagina van het proces. -->
+
 			<footer>
-
 				<div class="column1of3">
 
 					<h1 class="contact"> Contact </h1>

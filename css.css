@@ -101,7 +101,6 @@ footer {
 
 .headerimage {
 	width: 100%;
-
 }
 
 td { background-color: white; 
@@ -169,39 +168,6 @@ fieldset {
     margin-left: 10px;
     font-size: 17px;
     height: 20px;
-}
-
-/* CSS RESERVEREN PAGINA + pagina's stappen reserveren */
-
-.datum,.tijd,.artiest,.titel,.prijs,.reserverenbutton {
-	width: 200px; 
-	display: inline-block;
-}
-
-.blok1home {
-	display: inline-block;
-	width: 200px;
-}
-
-#reserverenbuttonid {
-	border-style: solid;
-	border-color: #FF3333;
-	font-size: 16px;
-	color: #FF3333;
-	background-color: #FFF;
-}
-
-#reserverenbuttonid:hover { 
-	background-color: #FF3333;
-	color: #FFF;
-}
-
-.h1reserverenform {
-	font-size: 19px;
-}
-
-.reserverenstap1 {
-	font-family: Ebrima;
 }
 
 /* CSS ONZE TONEELGROEP */
@@ -306,7 +272,7 @@ div.seizoen1 {
 
 .theaterhureninfo {
 	text-align: left;
-	width: 700px;
+	width: 600px;
 	padding-left: 25px;
 	padding-bottom: 35px;
 }
@@ -315,18 +281,75 @@ div.seizoen1 {
 	width: 400px;
 	margin: 10px;
 }
+.theaterhureninfo, .imperiumtribune {
+	display: inline-block;
+	margin: 10px;
+}
 
-/*ADD OR NOT?
+/* CSS RESERVEREN PAGINA + pagina's stappen reserveren */
 
-body > header ul{
-	width: 100%;
-	list-style: none;
-	padding: 0;
-	text-align: center;
-	display: inline;
-}	
-*/
+.datum,.tijd,.artiest,.titel,.prijs,.zaal,.kosten,.reserverenbutton {
+	width: 200px; 
+	display: inline-block;
+}
 
+.blok1home {
+	display: inline-block;
+	width: 200px;
+}
+
+#reserverenbuttonid {
+	border-style: solid;
+	border-color: #FF3333;
+	font-size: 16px;
+	color: #FF3333;
+	background-color: #FFF;
+}
+
+#reserverenbuttonid:hover { 
+	background-color: #FF3333;
+	color: #FFF;
+}
+
+.h1reserverenform {
+	font-size: 19px;
+}
+
+.reserverenstap1 {
+	font-family: Ebrima;
+}
+
+#ticketinvoer, #overzichtreserveren {
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+label {
+	text-align: left;
+	padding-right: 40px;
+	font-size: 16px;
+}
+/* ^ text-align werkte niet om de labels van de hoeveelheid tickets 
+invoervelden links onder elkaar te zetten, ik heb dit nog geprobeerd maar ik kon 
+even niks anders vinden om dit op te lossen */
+
+.ticketinvoer {
+	font-size: 16px;
+}
+
+#verderbuttonreserveren {
+	border-style: solid;
+	border-color: #282828;
+	color: #282828;
+	background-color: white;
+	font-size: 18px;
+	margin: 15px;
+	margin-top: 10px;
+	padding: 8px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
 
 /* TEST COLORS
 

@@ -25,75 +25,65 @@
 
 					<div class="top">   
 							<ul class='breadcrumb'>
-									<li class='breadcrumbtext'>U BENT HIER: HOME ></li>
-									<li class='breadcrumbtext'>AGENDA</li>
+									<li class='breadcrumbtext'>U BENT HIER: HOME></li>
+									<li class='breadcrumbtext'>RESERVEREN></li>
+									<li class='breadcrumbtext'>WINKELWAGEN</li>
 							</ul>
 							<img src="images/dividerblack.png" class="divider" width="1075" />
 					</div>
 			</header>
-			<section id="agendasector">
+			<section>
+					<h1 id="overzichtreserveren">Overzicht</h1>
 
-				<div class="search-container">
-					<form action="http://www.example.com/bookings/"   
-						method="post" action="/action_page.php">
-						<input type="date" name="zoekvelddatum" id="zoekvelddatum"/> 
-				    	<img src="images/calendar.png" class="calendar"/>
-      					<input type="text" placeholder="Zoek.." id="zoekveld">
-      					<a href="#">
-      						<img src="images/search.png" class="search"/> <!--Deze zou als button moeten dienen-->
-      					</a>  					
-    				</form>
-    			</div>
-				<br /><br />
-				<div class="agendaticket">
-
-				<a href="winkelwagen.html"><img src="images/ticketagenda.png" class="ticket" alt="Klik hier om voor deze voorstelling te reserveren"/></a>
-				</div> 
-
-				<div class="agendaimage">
-						<img src="images/thestateofmary.jpg" alt="Poster van de voorstelling The State of Mary"/>
-				</div>
-
-				<div class="agendatext">   
-						<h1 class="agendatext">The State of Mary</h1>
-						<p><i>What did you think, the first time you saw me? Did you spy the devil’s daughter they’d warned you about?</i>
-						<br /><br />
-						Two iconic queens in a bloody power struggle have to deal with their faiths, the interests of their people, and of the men that surround them…
-						<br /><br />
-						<form action="http://www.example.com/subscribe.php">  
-							<input type="submit" name="info" id="info"  
-							value="Meer info" />
-						</form> 
+				<div class="zaal">
+					<h1 class="h1reserverenform"> Zaal </h1>
+						<p class="inforeservenform">
+							Imperium theater zaal 1
+						</p>
+				</div>  
+				<div class="tijd">
+					<h1 class="h1reserverenform"> Tijd </h1>
+						<p class="inforeservenform">
+							20.30 uur
+						</p>	
+				</div>  
+				<div class="datum">   
+						<h1 class="h1reserverenform">Datum</h1>
+						<p class="inforeservenform">
+							Vrijdag 18 mei
 		      			</p>
 		      	</div> 
+		      	<div class="titel">   
+						<h1 class="h1reserverenform">Voorstelling</h1>
+						<p class="inforeservenform">
+							The State of Mary
 
-		      	<br /><br />
-
-		      	<div class="agendaticket">
-
-				<a href="winkelwagen.html"><img src="images/ticketagenda2.png" class="ticket" alt="Klik hier om voor deze voorstelling te reserveren"/></a>
-				</div> 
-
-				<div class="agendaimage">
-						<img src="images/Zinsbegoocheling.png" id="zinsbegoocheling" alt="Poster van de voorstelling zinsbegoocheling."/>
-				</div>
-
-				<div class="agendatext">   
-						<h1 class="agendatext">Zinsbegoocheling</h1>
-						<p>Pridamant heeft door zijn te strenge opvoeding de vlucht van zijn zoon Clindor veroorzaakt. Hij kreeg meteen spijt en heeft zijn zoon door heel Europa gezocht. Uiteindelijk komt hij in een grot waar de tovenaar Alcandre hem, in een zinsbegoocheling, fragmenten uit het leven van Clindor kan laten voorspelen door schimmen...
-						<br /><br />
-						<form action="http://www.example.com/subscribe.php">  
-							<input type="submit" name="info" id="info"  
-							value="Meer info" />
-						</form> 
 		      			</p>
 		      	</div> 
-				<br /><br />
-		      	<img src="images/arrowagenda.png" class="arrowagenda" alt="Klik hier om meer voorstellingen te bekijken"/>
+		      	<div class="kosten">   
+						<h1 class="h1reserverenform">Kosten</h1>
+						<p class="inforeservenform">
+							€ 15
+		      			</p>
+				<!-- ^ Achter gezien was een table misschien handiger geweest voor dit overzicht 
+					maar ik ben er redelijk tevreden mee. -->
+			</section><br />
+			<form>
+			<h1 id="ticketinvoer">Selecteer aantal kaarten</h1><br />
+				<label>Volwassenen</label>
+				<input class="ticketinvoer" type="number" name="tickets"><br /><br />
+				<label>Ouderen(65+)</label>
+				<input class="ticketinvoer" type="number" name="tickets"><br /><br />
+				<label>Kinderen t/m 12 jaar</label>
+				<input class="ticketinvoer" type="number" name="tickets">
+			</form>
+			<br />
+			<a href="afrekenen1.html">
+				<input id="verderbuttonreserveren" class="buttontickets" type="submit" value="verder">
+			</a><br /><br />
+			<!-- Ik wou eigenlijk zoals bij een echt betaalproces dat o.a. de gegevens worden meegegeven naar de volgende stap, maar dat kan ik nog niet echt op het moment aangezien Javascript niet m'n sterkste punt is. Om dit een beetje op te lossen kan je doorklikken naar de volgende pagina van het proces. -->
 
-			</section>
 			<footer>
-
 				<div class="column1of3">
 
 					<h1 class="contact"> Contact </h1>
