@@ -25,39 +25,53 @@
 
 					<div class="top">   
 							<ul class='breadcrumb'>
-									<li class='breadcrumbtext'>U BENT HIER: HOME</li>
+									<li class='breadcrumbtext'><a class="breadcrumbtext" href="index.html">U BENT HIER: HOME></a></li>
+									<li class='breadcrumbtext'><a class="breadcrumbtext" href="reserveren.html">RESERVEREN></a></li>
+									<li class='breadcrumbtext'><a class="breadcrumbtext" href="winkelwagen.html">WINKELWAGEN></a></li>
+									<li class='breadcrumbtext'>AFREKENEN</li>
 							</ul>
 							<img src="images/dividerblack.png" class="divider" width="1075" />
 					</div>
 			</header>
+			<!--inloggen formulieren -->
 			<section>
-					<h1 class='agenda'><a class='agenda' href="agenda.html"> AGENDA </a></h1>
-					<br />
+			<form>
+				<h1 id="ticketinvoer">gegevens invullen</h1><br />
+					<label>Voornaam:</label>
+					<input class="gegevensinvoer" type="name" name="voornaam" placeholder="Voornaam"><br /><br />
+					<label>Achternaam:</label>
+					<input class="gegevensinvoer" type="name" name="achternaam" placeholder="Achternaam"><br /><br />
+					<label>Straat:</label>
+					<input class="gegevensinvoer" type="text" name="straat" placeholder="Straat"><br /><br />
+					<label>Huisnummer:</label>
+					<input class="gegevensinvoer" type="number" name="huisnummer" placeholder="Huisnummer"><br /><br />
+					<label>Postcode:</label>
+					<input class="gegevensinvoer" type="text" name="postcode" placeholder="Postcode"><br /><br />
+					<label>Woonplaats:</label>
+					<input class="gegevensinvoer" type="text" name="woonplaats" placeholder="Woonplaats"><br /><br />
 
-					<table align="center" class="one"> 
-						<tr>  
-							<td class="alignimage"><img src="images/thestateofmary.jpg" id="thestateofmary" alt="Poster van de voorstelling The State of Mary"/></td>  
-							<td><b class="tabletitlehome">Het Homerostheater speelt: The State of Mary</b><br />
-							28 april 2018<br /><br />
-							<i>What did you think, the first time you saw me? Did you spy the devil’s daughter they’d warned you about?</i>
-							<br />
-							Two iconic queens in a bloody power struggle have to deal with their faiths, the interests of their people, and of the men that surround them...</td> 
-						</tr> 
-						<tr>  
-							<td><b class="tabletitlehome">Imperium speelt: Zinsbegoocheling</b><br />
-							19 mei 2018<br /><br />
-							Pridamant heeft door zijn te strenge opvoeding de vlucht van zijn zoon Clindor veroorzaakt. Hij kreeg meteen spijt en heeft zijn zoon door heel Europa gezocht. Uiteindelijk komt hij in een grot waar de tovenaar Alcandre hem, in een zinsbegoocheling, fragmenten uit het leven van Clindor kan laten voorspelen door schimmen...</td>  
-							<td class="alignimage"><img src="images/Zinsbegoocheling.png" id="zinsbegoocheling" alt="Poster van de voorstelling zinsbegoocheling."/></td> 
-						</tr> 
-					</table>
-					<!-- Het idee dat ik had voor de voorpagina pakte niet helemaal uit dus ik heb dit maar geprobeerd. 
-					Ik had de voorpagina iets mooier willen vormgeven maar ik had uiteindelijk tijdtekort en ben me gaan focussen
-					op andere pagina's. -->
-			</section>
+					<div class="radiobuttons">
+					  		<p>Ik wil mijn tickets op de volgende manier ontvangen:</p>
+							<input type="radio" id="keuze1" name="contact" value="email">
+							<label for="contactChoice1">Email</label>
+							<input type="radio" id="keuze1" name="contact" value="phone">
+							<label for="contactChoice2">afhalen</label>
+							<input type="radio" id="keuze1" name="contact" value="mail">
+							<label for="contactChoice3">post</label>
+					</div>
+			</form>
 			<br />
 
-			<footer>
+			<a href="betalen.html">
+				<input id="verderbuttonreserveren" class="buttontickets" type="submit" value="verder">
+			</a><br /><br />
 
+
+
+
+			<!-- Ik wou eigenlijk zoals bij een echt betaalproces dat o.a. de gegevens worden meegegeven naar de volgende stap, maar dat kan ik nog niet echt op het moment aangezien Javascript niet m'n sterkste punt is. Om dit een beetje op te lossen kan je doorklikken naar de volgende pagina van het proces. -->
+
+			<footer>
 				<div class="column1of3">
 
 					<h1 class="contact"> Contact </h1>
