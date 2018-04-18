@@ -27,52 +27,29 @@
 							<ul class='breadcrumb'>
 									<li class='breadcrumbtext'><a class="breadcrumbtext" href="index.html">U BENT HIER: HOME ></a></li>
 									<li class='breadcrumbtext'><a class="breadcrumbtext" href="reserveren.html">RESERVEREN ></a></li>
-									<li class='breadcrumbtext'><a class="breadcrumbtext" href="stoelenreserveren.html">STOELEN RESERVEREN ></a></li>
-									<li class='breadcrumbtext'><a class="breadcrumbtext" href="winkelwagen.html">WINKELWAGEN ></a></li>
-									<li class='breadcrumbtext'><a class="breadcrumbtext" href="afrekenen1.html">AFREKENEN STAP 1 ></a></li>
-									<li class='breadcrumbtext'>AFREKENEN STAP 2</li>
+									<li class='breadcrumbtext'>STOELEN RESERVEREN</li>
 							</ul>
 							<img src="images/dividerblack.png" class="divider" width="1075" />
 					</div>
 			</header>
+				<h1 id="stoelenreserveren">STOELEN RESERVEREN</h1>
+				<section class="stoelenselecteren">
+					<img src="images/stoelen.png" class="stoelenplattegrond" alt="Hier een overzicht van alle stoelen"/>
 
-			<section>
-					<h1>AFREKENEN STAP 2</h1>
-					<br />
-			<form>
-				<h1 id="ticketinvoer">gegevens invullen</h1><br />
-					<label>Voornaam:</label>
-					<input class="gegevensinvoer" type="name" name="voornaam" placeholder="Voornaam"><br /><br />
-					<label>Achternaam:</label>
-					<input class="gegevensinvoer" type="name" name="achternaam" placeholder="Achternaam"><br /><br />
-					<label>Straat:</label>
-					<input class="gegevensinvoer" type="text" name="straat" placeholder="Straat"><br /><br />
-					<label>Huisnummer:</label>
-					<input class="gegevensinvoer" type="number" name="huisnummer" placeholder="Huisnummer"><br /><br />
-					<label>Postcode:</label>
-					<input class="gegevensinvoer" type="text" name="postcode" placeholder="Postcode"><br /><br />
-					<label>Woonplaats:</label>
-					<input class="gegevensinvoer" type="text" name="woonplaats" placeholder="Woonplaats"><br /><br />
+				<form>
+						<br />
+						<label>Stoel</label>
+						<input class="ticketinvoer" type="text" name="tickets"><br /><br />
+				</form><br />
+				<!-- Ik baal er een beetje van dat het me niet gelukt is om deze stoelen selecteerbaar te maken, ik heb uiteindelijk maar de indeling in AI nagemaakt en een invoerveld toegevoegd, dit zou niet werken als je meer dan een ticket wil bestellen maar ik kon uiteindelijk geen betere oplossing bedenken dankzij tijdgebrek. -->
 
-					<div class="radiobuttons">
-					  		<p>Ik wil mijn tickets op de volgende manier ontvangen:</p>
-							<input type="radio" id="keuze1" name="contact" value="email">
-							<label for="contactChoice1">Email</label>
-							<input type="radio" id="keuze1" name="contact" value="phone">
-							<label for="contactChoice2">afhalen</label>
-							<input type="radio" id="keuze1" name="contact" value="mail">
-							<label for="contactChoice3">post</label>
-					</div>
-			</form>
-			<br />
+				<a href="winkelwagen.html">
+					<input id="verderbuttonreserveren" class="buttontickets" type="submit" value="verder">
+				</a><br /><br />
 
-			<a href="betalen.html">
-				<input id="verderbuttonreserveren" class="buttontickets" type="submit" value="verder">
-			</a><br /><br />
-
-			<!-- Ik wou eigenlijk zoals bij een echt betaalproces dat o.a. de gegevens worden meegegeven naar de volgende stap, maar dat kan ik nog niet echt op het moment aangezien Javascript niet m'n sterkste punt is. Om dit een beetje op te lossen kan je doorklikken naar de volgende pagina van het proces. -->
-
+				</section>
 			<footer>
+
 				<div class="column1of3">
 
 					<h1 class="contact"> Contact </h1>

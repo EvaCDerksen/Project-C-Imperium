@@ -39,7 +39,7 @@ td { background-color: white;
 	solid #000000;
 	text-align: left;
 	width: 380px;
-	border-color: #665544;
+	border-color: white;
 
 } 
 
@@ -58,7 +58,7 @@ table.one {
 	font-family: calibri;
 }
 
-/* navigatie CSS (Menu/breadcrumb) */
+/* navigatie CSS (Menu/breadcrumb/overig) */
 
 ul.breadcrumb {
 	text-align: left;
@@ -69,6 +69,11 @@ ul.breadcrumb {
 }
 
 a[class="breadcrumbtext"] {
+	color: #282828;
+	text-decoration: underline;
+}
+
+a[class="homelink"] {
 	color: #282828;
 	text-decoration: underline;
 }
@@ -339,8 +344,8 @@ div.seizoen1 {
 	font-family: Ebrima;
 }
 
-#ticketinvoer, #overzichtreserveren {
-	font-size: 18px;
+#stoelenreserveren, #ticketinvoer, #overzichtreserveren {
+	font-size: 19px;
 	text-transform: uppercase;
 	text-decoration: underline;
 }
@@ -404,7 +409,16 @@ er overheen hovert, jammergenoeg lukte me het niet dit op tijd uit te vinden. */
 	margin-left: 5px;
 }
 
-/* TEST COLORS
+/* CSS STOELEN RESERVEREN */
+
+
+
+
+/* 
+
+
+/* TEST COLORS 
+(negeren, is alleen om te testen)
 
 .column1of3 {
 	background-color: red;
