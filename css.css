@@ -359,7 +359,7 @@ label {
 invoervelden links onder elkaar te zetten, ik heb dit nog geprobeerd maar ik kon 
 even niks anders vinden om dit op te lossen */
 
-.ticketinvoer {
+.ticketinvoer, .gegevensinvoer {
 	font-size: 16px;
 }
 
